@@ -1,0 +1,25 @@
+body{
+    background-color:#F7F7F9;
+}
+
+#holder{
+    background-color:white;
+}
+
+.Myholder{
+    text-align:center;
+    padding:10px;
+    background-color:white;
+}
+
+.melearn{
+    padding:10px;
+     background-color:white;
+}
+
+#MyImage{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:1px solid none;
+}

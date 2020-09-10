@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Killu Bhargav</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'home' %}">
+                Bhargav Killu
+            </a>
+        </div>
+    </nav>
+
+</head>
+<body>
+    <div class="container mt-2 mb-2">
+        <div class="row">
+            <div class="border border-info rounded col-md-3 Myholder">
+                <img src="{% static 'images/Myphoto.jpg' %}" id="MyImage" class="mb-3">
+                <h3>Hi, I'm Bhargav</h3>
+                <p>I love coding and i'm a full stack web developer.
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class=" border border-info rounded col-md-8 melearn">
+                <h4>How did i learn web technologies?</h4><hr>
+                <div class="mb-3">When i decided to become a web developer, I should have one starting point. I took a course The complete web developer course by Rob Percivel in udemy. In this course i've learned HTML, CSS with real time projects. Real time projects cleared many doubts.<br>
+                    <br>Second course i took was django web developer course by Nick Walter in udemy. In this course, I made two projects which comes within a course. These are the learning points. Everyone should try these projects if they want to learn some good knowledge in a limited time.<br>
+                    <br>These two courses helped me to make online resume like this.<br><br>
+                    Youtube is great source of learn anything. I've learned Django and other technologies by following Youtubers like Dennis Ivy, Naveen Reddy, Hitesh Chowdary.
+
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <div class="row mt-2">
+            <div class="col-md-4 melearn">
+                <h4>Skills</h4><hr>
+                <div class="mb-3">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>Django REST Framework (Learning) </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-7 melearn">
+                <h4>Online Portfolio Project</h4>
+                <hr>
+                <div class="mb-3">
+                    <p>This is portfolio project for a one person. In this project, Persons can upload some blocks of information.</p>
+                    Block features:
+                    <ul>
+                        <li>Title - To add title for article.</li>
+                        <li>Description - To add description to their article. </li>
+                        <li>Image - To add image to their article. </li>
+                        <li>Link - It gives more detailed explanation of article when click on it.</li>
+                    </ul>
+                    <a  target="_blank" href="https://drive.google.com/drive/folders/1B84gle0dyGPb127tp8jbj-IPjCpBclro?usp=sharing">Click here for source code and video explanation.</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
